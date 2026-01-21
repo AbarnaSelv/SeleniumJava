@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-24T10:35:55 IST" name="Default suite" finished-at="2025-12-24T10:35:58 IST" duration-ms="3404">
+  <suite started-at="2026-01-21T10:55:02 IST" name="Default suite" finished-at="2026-01-21T10:55:36 IST" duration-ms="33926">
     <groups>
     </groups>
-    <test started-at="2025-12-24T10:35:55 IST" name="Default test" finished-at="2025-12-24T10:35:58 IST" duration-ms="3404">
-      <class name="SeleniumPractice.Validations">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:SeleniumPractice.Validations@179ece50]" started-at="2025-12-24T10:35:55 IST" name="launchBrowser" finished-at="2025-12-24T10:35:58 IST" duration-ms="2866" status="PASS">
+    <test started-at="2026-01-21T10:55:02 IST" name="Default test" finished-at="2026-01-21T10:55:36 IST" duration-ms="33926">
+      <class name="SeleniumPractice.HighlightAllButtons">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPractice.HighlightAllButtons@179ece50]" started-at="2026-01-21T10:55:02 IST" name="setup" finished-at="2026-01-21T10:55:05 IST" duration-ms="2780" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="validate()[pri:0, instance:SeleniumPractice.Validations@179ece50]" started-at="2025-12-24T10:35:58 IST" name="validate" finished-at="2025-12-24T10:35:58 IST" duration-ms="254" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="highlightAllButtons()[pri:0, instance:SeleniumPractice.HighlightAllButtons@179ece50]" started-at="2026-01-21T10:55:05 IST" name="highlightAllButtons" finished-at="2026-01-21T10:55:35 IST" duration-ms="30704" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumPractice.Validations@179ece50]" started-at="2025-12-24T10:35:58 IST" name="closeBrowser" finished-at="2025-12-24T10:35:58 IST" duration-ms="209" status="PASS">
+        </test-method> <!-- highlightAllButtons -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPractice.HighlightAllButtons@179ece50]" started-at="2026-01-21T10:55:35 IST" name="tearDown" finished-at="2026-01-21T10:55:36 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- SeleniumPractice.Validations -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumPractice.HighlightAllButtons -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
