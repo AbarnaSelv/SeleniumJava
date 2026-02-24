@@ -1,6 +1,6 @@
 package SeleniumPractice;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ public class Validations {
 
 	@BeforeClass
 	public void launchBrowser() {
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		driver.manage().window().maximize();
