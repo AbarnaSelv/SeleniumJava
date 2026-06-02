@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumPractice.highlightAllButtons">
+      <class name="SeleniumPractice.WindowHandlingTest">
         <methods>
+          <include name="multipleWindowHandlingTest"/>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="highlightAllButtons"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- SeleniumPractice.highlightAllButtons -->
+      </class> <!-- SeleniumPractice.WindowHandlingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
